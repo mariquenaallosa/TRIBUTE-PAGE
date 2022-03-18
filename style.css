@@ -1,0 +1,95 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet">
+html {
+  font-size: 10px
+}
+body {
+  font-family: "Space Mono","Arvo";
+  font-size: 1.5em;
+  line- height: 1.5;
+  text-align: center;
+  color: #151514;
+  margin: 0;
+}
+
+h1{
+  font-family: "Bebas Neue";
+  margin-bottom: 0;
+  font-size: 6em;
+  margin-top:5;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 5.5rem;
+    line-height: 1.2;
+  }
+}
+
+figcaption {
+  font-size:.80em;
+}
+
+h2{
+  font-size: 1.5em;
+  
+    
+}
+
+a{
+  color: #AE1616;
+}
+a:visited {
+  color: #3F0B0B;
+}
+#main {
+  margin: 20px 8px;
+  padding: 4px;
+  border-radius:6px;
+  background: #E4E4E4;
+}
+@media (max-width: 500px) {
+  #main {
+    margin: 20;
+  }
+}
+img {
+  max-width:100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 300vh;
+}
+#img-div {
+  background: white;
+  padding: 20px;
+  margin: 0;
+}
+#img-caption {
+  margin: 8px 0 4px 0;
+}
+#headline {
+  margin: 60px 0;
+  text-align: center;
+}
+ul {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+li {
+  margin: 35px 0;
+  text-align: justify;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  text-align: right;
+}
+h3{
+  font-size:1em
+}
